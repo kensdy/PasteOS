@@ -48,4 +48,4 @@ The Paste Reading Page allows users to access specific pastes for reading.
 ### 4. Search System
 
 On this page, users can search for terms or phrases in public pastes, returning pastes that contain the searched terms.
-![Search](img/search.png)
+![Search](img/pesquisa.png)
