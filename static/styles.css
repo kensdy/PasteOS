@@ -1,0 +1,184 @@
+/* Adicione este código ao seu arquivo de estilo CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #282A36;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #343746;
+    padding: 10px;
+    height: 50px; /* Altura máxima de 50 pixels */
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #FFFFFF; /* Cor branca para o título/logo */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #A179BF;
+}
+
+#content {
+    padding: 20px;
+    margin: 0 5%; /* Adicionando margem à esquerda e direita */
+}
+
+footer {
+    background-color: #343746;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Novos estilos para a página de criar paste */
+h2 {
+    color: #A179C0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: calc(100% - 20px); /* 100% da largura da tela com 20px de margem */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent; /* Define a borda como transparente inicialmente */
+    border-radius: 5px;
+    background-color: #343746;
+    color: white;
+    transition: border 0.3s; /* Adicionando transição para suavizar a mudança de borda */
+}
+
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+    border: 1px solid #655B78;
+}
+
+select {
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #A179C0;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #655B78;
+}
+
+.search-button {
+    background-color: #A179C0;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #655B78;
+}
+
+/* Estilo para a lista de pastes */
+.paste-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para cada item de paste */
+.paste-item {
+    background-color: #343746;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo para o cabeçalho de paste */
+.paste-header {
+    color: #A179BF;
+}
+
+/* Estilo para o conteúdo de paste */
+.paste-content {
+    color: white;
+}
+
+/* Estilo para o link "Ver Paste" */
+.view-paste-link {
+    color: #A179BF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.view-paste-link:hover {
+    color: #655B78;
+}
+
+.paste-content {
+    background-color: #343746;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.paste-link {
+    color: #A179C0;
+}
+
+a {
+    color: #A179C0; /* Cor desejada para os links */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse (opcional) */
+}
+
+.footer-icons i {
+    font-size: 30px; /* Altere o tamanho conforme necessário */
+}
+
+.footer-icons a {
+    margin-right: 15px; /* Altere a margem conforme necessário */
+}
