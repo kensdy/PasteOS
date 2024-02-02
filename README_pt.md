@@ -1,10 +1,10 @@
-# PasteOP
+# PasteOS
 
-O PasteOP é um sistema open-source inspirado no PasteBin, desenvolvido utilizando o framework Flask. Este projeto oferece uma solução simples e abrangente para a gestão e compartilhamento de textos ou informações.
+O PasteOS é um sistema open-source inspirado no PasteBin, desenvolvido utilizando o framework Flask. Este projeto oferece uma solução simples e abrangente para a gestão e compartilhamento de textos ou informações.
 
 Português | [English](README.md)
 
-[![Repository Views](https://komarev.com/ghpvc/?username=kensdypasteop&label=Views&color=brightgreen)](https://github.com/kensdy/PasteOP)
+[![Repository Views](https://komarev.com/ghpvc/?username=kensdypasteos&label=Views&color=brightgreen)](https://github.com/kensdy/PasteOS)
 
 ## Como Usar
 
@@ -14,11 +14,11 @@ Português | [English](README.md)
 2. **Clonando o Repositório:**
    - Execute o seguinte comando para clonar o repositório:
      ```bash
-     git clone https://github.com/kensdy/PasteOP
+     git clone https://github.com/kensdy/PasteOS
      ```
 
 3. **Executando o Aplicativo:**
-   - Navegue para o diretório recém-clonado com `cd PasteOP`.
+   - Navegue para o diretório recém-clonado com `cd PasteOS`.
    - Instale as dependências usando `pip install -r requirements.txt`.
    - Execute `python main.py` para iniciar o servidor local.
    - Acesse `http://127.0.0.1:5000` em seu navegador para interagir com o fórum.
