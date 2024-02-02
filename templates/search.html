@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h2>Pesquisar:</h2>
+    <form method="post" action="{{ url_for('search') }}">
+        <input type="text" name="search" placeholder="Digite sua pesquisa...">
+        <button type="submit" class="search-button">Pesquisar</button>
+    </form>
+
+    {% if no_pastes_found %}
+        <p>Nenhum post encontrado.</p>
+    {% else %}
+        <h2>Pastes Encontrados:</h2>
+        <ul class="paste-list">
+            {% for paste in pastes %}
+                <li class="paste-item">
+                    <div class="paste-header">
+                        <strong>{{ paste.title }}</strong><br>
+                        Autor: {{ paste.author|default('Anônimo') }}<br>
+                        Visibilidade: {{ paste.visibility }}<br>
+                    </div>
+                    <div class="paste-content">
+                        {{ paste.content }}<br>
+                    </div>
+                    <a class="view-paste-link" href="{{ url_for('view_paste', paste_id=paste.id) }}">Ver Paste</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}
