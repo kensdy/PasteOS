@@ -1,51 +1,51 @@
 # PasteOP
 
-O PasteOP é um sistema open-source inspirado no PasteBin, desenvolvido utilizando o framework Flask. Este projeto oferece uma solução simples e abrangente para a gestão e compartilhamento de textos ou informações.
+PasteOP is an open-source system inspired by PasteBin, developed using the Flask framework. This project provides a simple and comprehensive solution for managing and sharing texts or information.
 
-Português | [English](README.md)
+[Português](README.md) | English
 
 [![Repository Views](https://komarev.com/ghpvc/?username=kensdypasteop&label=Views&color=brightgreen)](https://github.com/kensdy/PasteOP)
 
-## Como Usar
+## How to Use
 
-1. **Pré-requisitos:**
-   - Certifique-se de ter o Python instalado em sua máquina.
+1. **Prerequisites:**
+   - Make sure you have Python installed on your machine.
 
-2. **Clonando o Repositório:**
-   - Execute o seguinte comando para clonar o repositório:
+2. **Cloning the Repository:**
+   - Execute the following command to clone the repository:
      ```bash
      git clone https://github.com/kensdy/PasteOP
      ```
 
-3. **Executando o Aplicativo:**
-   - Navegue para o diretório recém-clonado com `cd PasteOP`.
-   - Instale as dependências usando `pip install -r requirements.txt`.
-   - Execute `python main.py` para iniciar o servidor local.
-   - Acesse `http://127.0.0.1:5000` em seu navegador para interagir com o fórum.
+3. **Running the Application:**
+   - Navigate to the newly cloned directory with `cd PasteOP`.
+   - Install dependencies using `pip install -r requirements.txt`.
+   - Run `python main.py` to start the local server.
+   - Access `http://127.0.0.1:5000` in your browser to interact with the forum.
 
-O sistema apresenta uma plataforma dinâmica para a criação de posts, proporcionando uma experiência flexível e adaptável aos usuários. Os posts podem ser elaborados de forma pública, garantindo visibilidade, ou configurados como não listados, permitindo o compartilhamento seletivo. Essa funcionalidade promove uma abordagem versátil para a divulgação de informações, atendendo tanto às necessidades de comunicação ampla quanto à privacidade mais restrita.
+The system presents a dynamic platform for creating posts, providing a flexible and adaptable experience for users. Posts can be created publicly, ensuring visibility, or configured as unlisted, allowing selective sharing. This functionality promotes a versatile approach to information disclosure, catering to both the needs of broad communication and more restricted privacy.
 
-Além disso, o sistema inclui uma funcionalidade de busca, permitindo aos usuários explorar e descobrir pastes públicos. Essa capacidade de pesquisa entre os conteúdos compartilhados amplia a utilidade do sistema, facilitando a localização de informações específicas dentro da vasta base de dados de posts públicos. Essa abordagem agrega valor ao sistema, oferecendo uma maneira eficiente e intuitiva de explorar e acessar conteúdos relevantes em meio a uma comunidade de compartilhamento.
+Additionally, the system includes a search feature, allowing users to explore and discover public pastes. This search capability among shared content enhances the system's utility, facilitating the location of specific information within the vast database of public posts. This approach adds value to the system, providing an efficient and intuitive way to explore and access relevant content within a sharing community.
 
-## **Conhecendo as Funcionalidades**
+## **Understanding the Features**
 
-O Community apresenta diversas funcionalidades que visam proporcionar uma experiência robusta e amigável para os usuários:
+PasteOP introduces various features aimed at providing a robust and user-friendly experience:
 
-### 1. Página Inicial (Home)
+### 1. Home Page
 
-A Página Inicial exibe um texto sobre o projeto.
+The Home Page displays a text about the project.
 
-### 2. Página de Criação de Pastes
+### 2. Paste Creation Page
 
-Na Página de Criação de Pastes, os usuários podem criar pastes públicos e não listados. Pastes públicos aparecem nas buscas, enquanto pastes não listados não aparecem nas buscas, precisando de um link para poderem ser acessados.
-![Criar Paste](img/criarpaste.png)
+On the Paste Creation Page, users can create public and unlisted pastes. Public pastes appear in searches, while unlisted pastes do not appear in searches, requiring a link to be accessed.
+![Create Paste](img/createpaste.png)
 
-### 3. Página de Leitura de Pastes
+### 3. Paste Reading Page
 
-A Página de Leitura de Pastes permite que os usuários acessem pastes específicos para leitura.
+The Paste Reading Page allows users to access specific pastes for reading.
 ![Paste](img/paste.png)
 
-### 4. Sistema de Buscas
+### 4. Search System
 
-Nesta página, o usuário pode pesquisar termos ou frases em pastes públicos, retornando pastes que possuem os termos pesquisados.
-![Pesquisa](img/pesquisa.png)
+On this page, users can search for terms or phrases in public pastes, returning pastes that contain the searched terms.
+![Search](img/search.png)
