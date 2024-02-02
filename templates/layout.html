@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- Adicione o link para a biblioteca Font Awesome -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.3.1/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="{{ url_for('index') }}">
+                Paste OS
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('create') }}">Criar Paste</a></li>
+                <li><a href="{{ url_for('search') }}">Pesquisar</a></li>
+                <li><a href="{{ url_for('about') }}">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        <!-- Adicione ícones do Font Awesome como links clicáveis -->
+        <a href="https://github.com/kensdy/PasteOP" target="_blank" class="icon-link">
+            <i class="fab fa-github fa-lg"></i> <!-- fa-lg define o tamanho grande -->
+        </a>
+        
+        <a href="https://discord.gg/be35tja989" target="_blank" class="icon-link">
+            <i class="fab fa-discord fa-lg"></i> <!-- fa-lg define o tamanho grande -->
+        </a>
+    </footer>
+</body>
+</html>
