@@ -1,5 +1,26 @@
 # PasteOP
 
+PasteOP é um sistema open-source inspirado no PasteBin, desenvolvido utilizando o framework Flask. Este projeto é uma solução simples e abrangente para a gestão e compartilhamento de textos ou informações.
+
+Português | [English](README.md)
+
+[![Repository Views](https://komarev.com/ghpvc/?username=kensdypasteop&label=Views&color=brightgreen)](https://github.com/kensdy/PasteOP)
+
+## Como Usar
+
+1. **Pré-requisitos:**
+   - Certifique-se de ter o Python instalado em sua máquina.
+
+2. **Clonando o Repositório:**
+   - Execute o seguinte comando para clonar o repositório:
+     ```bash
+     git clone https://github.com/kensdy/PasteOP
+     ```
+3. **Executando o Aplicativo:**
+   - Navegue para o diretório recém-clonado com `cd PasteOP`.
+   - Instale as dependências usando `pip install -r requirements.txt`.
+   - Execute `python main.py` para iniciar o servidor local.
+   - Acesse `http://127.0.0.1:5000` em seu navegador para interagir com o fórum.
 
 O sistema apresenta uma plataforma dinâmica para a criação de posts, proporcionando uma experiência flexível e adaptável aos usuários. Ao utilizar essa ferramenta, os posts podem ser elaborados de forma pública, garantindo visibilidade, ou configurados como não listados, permitindo o compartilhamento seletivo. Essa funcionalidade promove uma abordagem versátil para a divulgação de informações, atendendo tanto às necessidades de comunicação ampla quanto à privacidade mais restrita.
 
