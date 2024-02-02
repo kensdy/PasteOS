@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block title %}Criar Novo Paste - PasteOS{% endblock %}
+
+{% block content %}
+    <h2>Criar Novo Paste</h2>
+    <form method="post" action="{{ url_for('create') }}">
+        <label for="title">Título:</label>
+        <input type="text" name="title" required>
+        <br>
+        <label for="content">Conteúdo:</label>
+        <textarea name="content" required></textarea>
+        <br>
+        <label for="visibility">Selecione publico ou não listado:</label>
+        <select name="visibility">
+            <option value="public">Público</option>
+            <option value="unlisted">Não Listado</option>
+        </select>
+        <br>
+        <input type="submit" value="Criar Paste">
+    </form>
+{% endblock %}
