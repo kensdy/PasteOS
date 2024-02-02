@@ -140,6 +140,13 @@ input[type="submit"]:hover {
 /* Estilo para o conteúdo de paste */
 .paste-content {
     color: white;
+    max-height: 300px; /* Ajuste a altura máxima conforme necessário */
+    overflow-y: auto; /* Adiciona barra de rolagem vertical quando necessário */
+}
+
+.paste-content pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 /* Estilo para o link "Ver Paste" */
