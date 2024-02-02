@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ paste.title }} - PasteOS</title>
+</head>
+<body>
+    <header>
+        <h1>PasteOS</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">Sobre</a></li>
+                <li><a href="/search">Pesquisar</a></li>
+                <li><a href="/create">Criar Paste</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button onclick="location.href='/login'">Login</button>
+            <button onclick="location.href='/register'">Registro</button>
+        </div>
+    </header>
+
+    <main>
+        <h2>{{ paste.title }}</h2>
+        <p>{{ paste.content }}</p>
+        <p>Link do Paste: <a href="{{ url_for('view_paste', paste_id=paste.id) }}">{{ url_for('view_paste', paste_id=paste.id) }}</a></p>
+    </main>
+</body>
+</html>
