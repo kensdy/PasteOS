@@ -38,7 +38,7 @@ The Home Page displays a text about the project.
 ### 2. Paste Creation Page
 
 On the Paste Creation Page, users can create public and unlisted pastes. Public pastes appear in searches, while unlisted pastes do not appear in searches, requiring a link to be accessed.
-![Create Paste](img/createpaste.png)
+![Create Paste](img/criarpaste.png)
 
 ### 3. Paste Reading Page
 
