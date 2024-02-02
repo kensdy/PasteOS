@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ paste.title }} - PasteOS{% endblock %}
+
+{% block content %}
+    <h2>{{ paste.title }}</h2>
+    <p>Autor: {{ paste.author|default('Anônimo') }}</p>
+    <p>Conteúdo:</p>
+    <div class="paste-content">
+        <pre>{{ paste.content|safe }}</pre>
+    </div>
+    <p>Link do Paste para Copiar: <a class="paste-link" href="{{ url_for('view_paste', paste_id=paste.id) }}">{{ url_for('view_paste', paste_id=paste.id) }}</a></p>
+{% endblock %}
