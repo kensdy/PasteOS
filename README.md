@@ -2,7 +2,7 @@
 
 PasteOP is an open-source system inspired by PasteBin, developed using the Flask framework. This project provides a simple and comprehensive solution for managing and sharing texts or information.
 
-[Português](README.md) | English
+[Português](README_pt.md) | English
 
 [![Repository Views](https://komarev.com/ghpvc/?username=kensdypasteop&label=Views&color=brightgreen)](https://github.com/kensdy/PasteOP)
 
